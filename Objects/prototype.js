@@ -27,3 +27,12 @@ const ju = new ClientePoupanca("Ju","12345678910","ju@email.com",100,300)
 
 ju.depositarPoup(250)
 console.table(ju)
+
+console.log(victor.hasOwnProperty("saldoPoup"))
+console.log(ju.hasOwnProperty("saldoPoup"))
+console.log(victor instanceof Cliente)
+console.log(typeof victor)
+console.log(typeof ju)
+console.log(ju instanceof ClientePoupanca)
+console.log(Function.prototype.isPrototypeOf(Cliente))
+console.log(Cliente.constructor === Function)
